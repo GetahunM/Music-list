@@ -75,7 +75,7 @@ public:
         newSong->next = current->next;
         current->next = newSong;
         count++;
-        cout << "\"" << title << "\" added at position " << pos << ".\n";
+        cout << "\"" << title << "\" added at position :" << pos << ".\n";
     }
 
     
